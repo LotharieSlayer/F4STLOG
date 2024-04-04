@@ -1,7 +1,7 @@
 {
-  "name": "loggerv3",
+  "name": "f4stlog",
   "version": "3.3.0",
-  "description": "Logger version 3, serving over 180,000 Discord servers",
+  "description": "F4STLOG: a new logger bot based on curtisf/logger",
   "main": "index.js",
   "scripts": {
     "test": "standard",
@@ -14,7 +14,7 @@
     "discord",
     "discordapp"
   ],
-  "author": "Curtis Fowler",
+  "author": "Lothaire Guée",
   "license": "AGPL-3.0-or-later",
   "dependencies": {
     "@sentry/node": "^7.80.1",
