@@ -15,7 +15,5 @@ RUN npm install --omit=dev
 # Copy local code to the container image.
 COPY . .
 
-RUN node src/miscellaneous/generateDB.js
-
 # Run the bot.
 CMD ["node", "index.js"]
