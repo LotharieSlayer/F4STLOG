@@ -11,10 +11,11 @@ COPY package*.json ./
 
 # Install production dependencies.
 RUN npm install --omit=dev
-RUN node src/miscellaneous/generateDB.js
 
 # Copy local code to the container image.
 COPY . .
+
+RUN node src/miscellaneous/generateDB.js
 
 # Run the bot.
 CMD ["node", "index.js"]
